@@ -1,0 +1,21 @@
+{
+  "name": "u2a",
+  "version": "0.1.0",
+  "description": "Convert a Unicode string to an ASCII string",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "unicode",
+    "ascii",
+    "convert",
+    "transliterate",
+    "sanitize"
+  ],
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "author": "Marko Kažić <marko.kazic@zamphyr.com>",
+  "license": "ISC"
+}
