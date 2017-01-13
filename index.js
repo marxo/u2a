@@ -31,14 +31,14 @@ const charMap = new Map([
  */
 const u2a = (text, map = charMap) => {
     if (typeof text !== 'string') {
-        throw new Error('Invalid input data type');
+        throw new Error('Invalid input data type')
     }
     // Finds every key occurance in text and replaces it with replacement value using RegExp
     for (let k of map.keys()) {
-        text = text.replace(RegExp(k, 'gu'), map.get(k));
+        text = text.replace(RegExp(k, 'gu'), map.get(k))
     }
-    return text;
+    return text
 }
 
-module.exports = u2a;
+module.exports = u2a
 

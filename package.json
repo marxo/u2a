@@ -4,7 +4,8 @@
   "description": "Convert a Unicode string to an ASCII string",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "eslint ."
   },
   "keywords": [
     "unicode",
@@ -17,5 +18,8 @@
     "node": ">=0.10.0"
   },
   "author": "Marko Kažić <marko.kazic@zamphyr.com>",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "^3.13.1"
+  }
 }
