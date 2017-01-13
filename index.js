@@ -32,5 +32,5 @@ const u2a = (text) => {
     return text;
 }
 
-exports.u2a = u2a;
+module.exports = u2a;
 
