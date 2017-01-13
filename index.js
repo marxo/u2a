@@ -32,4 +32,5 @@ const u2a = (text) => {
     return text;
 }
 
-export default u2a
+exports.u2a = u2a;
+
